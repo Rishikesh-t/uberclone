@@ -1,0 +1,627 @@
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Montserrat:ital,wght@1,900&family=Roboto:wght@300;400;500&family=Tilt+Warp&display=swap');
+
+*{
+      margin: 0;
+      padding: 0;
+}
+
+nav{
+      display: flex;
+      justify-content: space-between;
+      background-color: black;
+      color: white;
+      height: 12vh;
+      width: 100%;
+      box-sizing: border-box;
+}
+
+.nav_left{
+      display: flex;
+      justify-content: center;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      gap: 1rem;
+}
+
+nav .company{
+      display: flex;
+      justify-content: space-between;
+      gap: 0.8rem;
+      align-items: center;
+      padding: 0 10px;
+}
+
+.nav_right{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 1.5rem;
+      padding: 0 20px;
+}
+
+.nav_left img{
+      width:5rem;
+      height: 4rem;
+      padding: 0 30px 0 40px;
+}
+
+.nav_right .signup{
+     color: black;
+     background-color: white;
+     padding: auto;
+     width: 5rem;
+     height: 2.5rem;
+     border-radius: 10rem;
+     margin-right: 50px;
+}
+
+.company:hover{
+      background-color: rgb(40, 38, 38);
+      border: 0.2px solid rgb(28, 28, 28);
+      border-radius: 10rem;
+      width:auto;
+      height: 2.5rem;
+}
+
+nav h6{
+      padding: 10px 20px;
+      font-size: 1rem;
+      font-weight: 100;
+}
+nav h6:hover{
+      background-color: rgb(40, 38, 38);
+      border: 0.2px solid rgb(28, 28, 28);
+      width:auto;
+      height: auto;
+      border-radius: 10rem;
+}
+
+nav .signup:hover{
+      background-color: rgb(239, 236, 236);
+}
+
+/* ========================= Nav Bar Ends Here ========================== */
+
+header{
+      background-image:url('images/uber_bg.png');
+      height:120vh;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      margin-bottom: 0;
+      overflow: hidden;
+}
+
+header .card{
+      background-color: white;
+      color: black;
+      width:45%;
+      height: 90vh;
+      position: absolute;
+      top: 75px;
+      left: 75px;
+      font-family: Arial, Helvetica, serif;
+}
+
+.card .card_top{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      margin: 20px 0;
+}
+
+.card_top .icon{
+      padding: 0 40px 0;
+      font-family: 'Tilt Warp',sans-serif;
+      font-weight: 200;
+}
+
+.card_top .icon i{
+      font-size: 1.3rem;
+}
+
+.card_top .icon hr{
+      color: black;
+      width: 80px;
+      border: 3px solid black;
+}
+
+.card_header{
+      margin-left: 80px;
+}
+.card_header h1{
+      text-align: left;
+      font-family: 'Tilt Warp',sans-serif;
+      font-size: 3rem;
+      font-weight: 100;
+      position: relative;
+      bottom: 20px;
+
+}
+
+.card_header input[type='text']{
+      width: 25rem;
+      height: 3rem;
+      background-color: rgb(235, 234, 234);
+      border: 0px white;
+      display: flex;
+      flex-direction: column;
+      gap: 0.1rem;
+}
+
+.card_header input[type='text']::placeholder{
+      font-family: 'Montserrat',sans-serif;
+      font-weight: 100;
+      color: rgb(163, 162, 162);
+      font-size: 0.7rem;
+      padding: 0 20px;
+}
+
+.card_buttons{
+      padding: 30px;
+}
+
+.black_button{
+      background-color: black;
+      color: white;
+      padding:15px 25px;
+      font-size: 1rem;
+      border-radius: 1rem;
+      margin-right: 25px;
+      border: none;
+}
+
+.black_button:hover{
+      opacity: 0.8;
+}
+
+.white_button{
+      padding:15px 25px;
+      font-size: 1rem;
+      border-radius: 1rem;
+      border: none; 
+}
+
+.white_button:hover{
+      opacity: 0.6;
+}
+
+/* ====================== Header Section Ends Here ====================== */
+
+.section2{
+      background-image: url('images/tunnel.png');
+      height:50vh;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+}
+
+.section2_content{
+      position: absolute;
+      top: 70px;
+      left: 70px;
+}
+
+.section2_content h1{
+      font-family: 'Tilt Warp',sans-serif;
+      margin-bottom: 30px;
+
+}
+
+.section2_content p{
+      font-family: 'Tilt Warp',sans-serif;
+      color: grey;
+      margin-bottom: 30px;
+}
+
+.big{
+      font-family: 'Roboto',sans-serif;
+      font-size: 3rem;
+      font-weight: 900;
+}
+
+/*  ============== Section 2 Ends Here ================== */
+     
+.section3{
+      padding: 70px 0 0 70px;
+      background-color: whitesmoke;
+      height: 90vh;
+}
+
+.section3 h1{
+      font-family: 'Tilt Warp', sans-serif;
+      font-weight: 100;
+      margin-block-end: 80px;
+
+}
+
+.section3 .section3_contents{
+      display: grid;
+      grid-template-columns: auto auto;
+      gap: 3rem;
+      margin-right: 80px;
+}
+
+.section3 .section3_content{
+      display: flex;
+      justify-content: space-around;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      row-gap: 5rem;
+
+}
+
+
+.section3_content img{
+      width: 9rem;
+      height: 9rem;
+      margin-bottom: 20px;
+      mix-blend-mode : multiply;
+}
+
+.section3_content i,
+.section5_content i{
+      font-size: 1.5rem;
+      transition: 0.3s;
+}
+
+.section3_content i:hover{
+      transform: translateX(10px);
+}
+
+.small{
+      font-family: 'Roboto',sans-serif;
+      font-size: 2.2rem;
+      font-weight: 900;
+}
+
+.section3 p{
+      font-family: 'Tilt Warp',sans-serif;
+      font-size: 0.85rem;
+      color: rgb(86, 84, 84);
+      font-weight: 100;
+}
+
+.section3 h2{
+      font-family: 'Tilt Warp',sans-serif;
+      font-weight: 100;
+      color: rgb(48, 47, 47);
+}
+
+/* ================== Section 3 Ends Here ===================== */
+
+.section4{
+      padding: 70px 70px;
+      background-color: whitesmoke;
+}
+
+.section4_contents{
+      display: flex;
+}
+
+.section4_contents img{
+      width: 95%;
+      height:60vh;
+      padding-bottom: 30px;
+}
+
+.section4 h1{
+      font-family: 'roboto',sans-serif;
+      font-size: 2.5rem;
+      padding-bottom: 40px;
+      font-weight: 400;
+      color: rgb(44, 43, 43);
+}
+
+.section4_content1 h3{
+      font-family: 'roboto',sans-serif;
+      color: rgb(44, 43, 43);
+      padding-bottom: 10px;
+}
+
+.section4_content1 p{
+      font-family: 'roboto',sans-serif;
+      color: rgb(44, 43, 43);
+      padding-bottom: 10px;
+}
+
+/* ============== Section 4 Ends Here ============ */
+
+
+.section5{
+      padding: 70px 70px;
+      background-color: white;
+}
+
+.section5 h1{
+      font-family: 'roboto',serif;
+      font-size: 2.5rem;
+      padding-bottom: 40px;
+      font-weight: 500;
+      color: rgb(44, 43, 43);
+}
+
+.section5_contents{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+}
+
+.section5_content{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap:2.5rem;
+      padding:20px 30px 20px 15px;
+}
+
+.section5 img{
+      width: 8rem;
+      height: 8rem;
+}
+
+.section5_content h3{
+      font-family: 'Tilt Warp',serif;
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: rgb(44, 43, 43);
+}
+
+.section5 .section5_content:first-child{
+      background-color:rgb(229, 226, 226);
+}
+
+.section5 .section5_content:last-child{
+      background-color:rgb(229, 226, 226);
+}
+
+.section5_content i:hover{
+      transform: translateX(10px);
+}
+
+/* =============== Section 5 Ends Here ====================== */
+
+.section6{
+      width: 100%;
+      height: 15vh;
+      display: flex;
+      gap: 7rem;
+      align-items: center;
+      background-color: whitesmoke;
+      padding-left: 70px;
+      box-sizing: border-box;
+}
+
+.section6_content h2{
+      font-family: 'roboto',serif;
+      font-size: 2.2rem;
+      font-weight: 500;
+      color: rgb(44, 43, 43);
+}
+
+.section6_content{
+      display: flex;
+      align-items: center;
+      gap: 13rem;
+}
+
+.section6_content h2{
+      text-align: left;
+}
+
+.section6_content i{
+      text-align: right;
+      font-size: 2rem;
+      transition: 0.5s;
+}
+
+.section6_content i:hover{
+      transform: rotate(180deg);
+}
+
+.section6_content hr{
+      color: black;
+      width: 80px;
+      border: 3px solid black;
+}
+
+/* ============================ Section 6 Ends Here ===================== */
+
+.container .bottom{
+      width: 100%;
+      height: 95vh;
+      background-color: black;
+      color: white;
+      box-sizing: border-box;
+}
+
+.container .bottom .bottom_main{
+      width: 100%;
+      height: 50vh;
+      display: flex;
+      justify-content: space-around;
+      position: relative;
+      top: 100px;
+      margin-bottom: 120px;
+}
+
+.container .bottom .bottom_left{
+      display: flex;
+      justify-content: space-between;
+      gap: 0.3rem;
+      position: relative;
+      bottom: 10px;
+}
+
+.container .bottom .bottom_left i{
+      font-size: 2.3rem;
+}
+
+.container .bottom .bottom_left h4{
+      font-size: 1.7rem;
+      font-family: 'Monterrat',sans-serif;
+}
+
+.container .bottom .bottom_mid h4{
+      font-family: 'Monterrat',sans-serif;
+      font-size: 0.8rem;
+      color: gray;
+      padding: 20px 0;
+}
+
+.container .bottom .bottom_mid h5{
+      font-family: 'Monterrat',sans-serif;
+      font-size: 0.9rem;
+      padding: 10px 0;
+}
+
+.container .bottom .bottom_mid h5:hover{
+      color: rgb(25, 222, 25);
+}
+
+.container .bottom .bottom_right{
+      display: flex;
+      flex-direction: column;
+      gap:1rem;
+}
+
+.container .bottom .bottom_right i{
+      font-size: 1.8rem;
+}
+
+.container .bottom .bottom_right i:hover{
+      color: rgb(25, 222, 25);
+}
+
+.circle-icon {                       
+      background: #312f2f;           /* For creating circular backgrounds for icons add this class in i tag */
+      padding:10px;
+      border-radius: 50%;
+      text-align: center;
+      vertical-align: middle;
+  }
+
+  /* ================== Footer Section Starts Here ===================== */
+
+.bottom{
+      width: 100%;
+      height: 95vh;
+      background-color: black;
+      color: white;
+      box-sizing: border-box;
+}
+
+.bottom .bottom_main{
+      width: 100%;
+      height: 50vh;
+      display: flex;
+      justify-content: space-around;
+      position: relative;
+      top: 100px;
+      margin-bottom: 120px;
+}
+
+.bottom .bottom_left{
+      display: flex;
+      justify-content: space-between;
+      gap: 0.3rem;
+      position: relative;
+      bottom: 10px;
+}
+
+.bottom .bottom_left i{
+      font-size: 2.3rem;
+}
+
+.bottom .bottom_left h4{
+      font-size: 1.7rem;
+      font-family: 'Monterrat',sans-serif;
+}
+
+.bottom .bottom_mid h4{
+      font-family: 'Monterrat',sans-serif;
+      font-size: 0.8rem;
+      color: gray;
+      padding: 20px 0;
+}
+
+.bottom .bottom_mid h5{
+      font-family: 'Monterrat',sans-serif;
+      font-size: 0.9rem;
+      padding: 10px 0;
+}
+
+.bottom .bottom_mid h5:hover{
+      color: gray;
+}
+
+.bottom .bottom_right{
+      display: flex;
+      flex-direction: column;
+      gap:1rem;
+}
+
+.bottom .bottom_right i{
+      font-size: 1.8rem;
+}
+
+.bottom .bottom_right i:hover{
+      color:gray;
+}
+
+.circle-icon {                       
+      background: #312f2f;           /* For creating circular backgrounds for icons add this class in i tag */
+      padding:10px;
+      border-radius: 50%;
+      text-align: center;
+      vertical-align: middle;
+  }
+
+  /* ================== Footer Section Starts Here ===================== */
+
+.bottom .bottom_footer{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 20px 40px;
+  }
+
+  .bottom .bottom_footer .footer_left{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1.5rem;
+      font-family: 'Monterrat',sans-serif;
+      font-size: 0.8rem;
+      color: gray;
+      position: relative;
+      top: 40px;
+      left: 20px;
+  }
+
+  .bottom .bottom_footer .footer_left p:hover{
+      color: rgb(241, 240, 240);
+  }
+
+  .bottom .bottom_footer .footer_right{
+      padding: 30px 20px 0 0;
+  }
+
+  .bottom .bottom_footer .footer_right p{
+      padding-bottom: 1.5rem;
+      font-family: 'Monterrat',sans-serif;
+      font-size: 0.8rem;
+      color: gray;
+}
+
+.bottom .bottom_footer .footer_right p:first-child:hover{
+      color:rgb(236, 231, 231);
+}
+
